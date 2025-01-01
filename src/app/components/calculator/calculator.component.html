@@ -1,0 +1,57 @@
+<div class="asli">
+  <div class="top">
+    <div class="d-img">
+      <img src="/icons8-burger-bar-24.png" alt="burger bar" id="bar">
+    </div>
+    <h2>Standard</h2>
+    <div class="d">
+      <img src="/icons8-time-machine-22.png" alt="burger bar" id="clock">
+    </div>
+  </div>
+  <div class="pre">{{prev}} {{op}} &nbsp;</div>
+  <div class="curent"> {{current}} </div>
+  <div class="top-d">
+    <button (click)="khali()">MC</button>
+    <button (click)="khali()">MR</button>
+    <button (click)="khali()">M+</button>
+    <button (click)="khali()">M-</button>
+    <button (click)="khali()">MS</button>
+    <button (click)="khali()">M></button>
+  </div>
+  <div class="buttons">
+    <button (click)="khali()">%</button>
+    <button (click)="clear_all()">CE</button>
+    <button (click)="clear()">C</button>
+    <button (click)="khali()">x</button>
+
+    <button (click)="khali()">1/x</button>
+    <button (click)="khali()">x^2</button>
+    <button (click)="khali()">r</button>
+    <button (click)="khali()">/</button>
+
+
+    <button (click)="digit('7')">7</button>
+    <button (click)="digit('8')">8</button>
+    <button (click)="digit('9')">9</button>
+    <button (click)="operator('+')" (click)="drst()">+</button>
+    <button (click)="digit('4')">4</button>
+    <button (click)="digit('5')">5</button>
+    <button (click)="digit('6')">6</button>
+    <button (click)="operator('-')" (click)="drst()">-</button>
+    <button (click)="digit('1')">1</button>
+    <button (click)="digit('2')">2</button>
+    <button (click)="digit('3')">3</button>
+    <button (click)="operator('X')" (click)="drst()">X</button>
+    <button (click)="operator('/')">+/-</button>
+    <button (click)="digit('0')">0</button>
+    <button (click)="dot()">.</button>
+    <button (click)="mosavi()" id="mosavi">=</button>
+
+  </div>
+</div>
+پاک شدن اخرین رقم
+با زدن سی کارنت پاک شود
+با زدن سی ای کلش پاک شود
+اضافه کردن جزر و به توانه
+سینوس و کسینوس:/
+خیلی خواستیم قدرت نمایی کنیم حافظه دارش کنیم مثلا با زدن ام پلاس بره تو حافطه
