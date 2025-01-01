@@ -1,3 +1,4 @@
+<app-header/>
 <div class="asli">
   <div class="top">
     <div class="d-img">
@@ -19,29 +20,29 @@
     <button (click)="khali()">M></button>
   </div>
   <div class="buttons">
-    <button (click)="khali()">%</button>
-    <button (click)="clear_all()">CE</button>
-    <button (click)="clear()">C</button>
+    <button (click)="operator('%')">%</button>
+    <button (click)="clear()">CE</button>
+    <button (click)="clear_all()">C</button>
     <button (click)="khali()">x</button>
 
     <button (click)="khali()">1/x</button>
-    <button (click)="khali()">x^2</button>
+    <button (click)="operator('x^2')">x^2</button>
     <button (click)="khali()">r</button>
-    <button (click)="khali()">/</button>
+    <button (click)="operator('/')">/</button>
 
 
     <button (click)="digit('7')">7</button>
     <button (click)="digit('8')">8</button>
     <button (click)="digit('9')">9</button>
-    <button (click)="operator('+')" (click)="drst()">+</button>
+    <button (click)="operator('+')">+</button>
     <button (click)="digit('4')">4</button>
     <button (click)="digit('5')">5</button>
     <button (click)="digit('6')">6</button>
-    <button (click)="operator('-')" (click)="drst()">-</button>
+    <button (click)="operator('-')">-</button>
     <button (click)="digit('1')">1</button>
     <button (click)="digit('2')">2</button>
     <button (click)="digit('3')">3</button>
-    <button (click)="operator('X')" (click)="drst()">X</button>
+    <button (click)="operator('X')">X</button>
     <button (click)="operator('/')">+/-</button>
     <button (click)="digit('0')">0</button>
     <button (click)="dot()">.</button>
